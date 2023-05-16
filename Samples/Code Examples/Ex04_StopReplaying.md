@@ -11,7 +11,7 @@ public class Example : MonoBehaviour
 {
     // Our running playback operation created in the previous example
     // We assume this is assigned for this sample
-	private ReplayPlaybackOperation playbackOp = null;
+    private ReplayPlaybackOperation playbackOp = null;
 
     void StopReplay()
     {
