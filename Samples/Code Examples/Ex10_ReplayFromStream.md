@@ -1,5 +1,5 @@
 ﻿
-This quick example shows how to begin a new replay as shown previoulsy, but using a stream as the target storage location.
+This quick example shows how to begin a new replay as shown previoulsy, but using an IO stream as the target storage location.
 
 ```cs
 using System.IO;
