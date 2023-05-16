@@ -13,17 +13,19 @@
     <None Remove="Code Examples\Ex07_RecordToFile.md" />
     <None Remove="Code Examples\Ex08_ReplayFromFile.md" />
     <None Remove="Code Examples\Ex09_RecordToStream.md" />
+    <None Remove="Code Examples\Getting Started\Ex07_ReplaySpeedDirection.md" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Code Examples\Ex02_StopRecording.md" />
-    <Compile Include="Code Examples\Ex03_Replaying.md" />
-    <Compile Include="Code Examples\Ex04_StopReplaying.md" />
-    <Compile Include="Code Examples\Ex05_PauseResumeReplay.md" />
-    <Compile Include="Code Examples\Ex06_SeekReplay.md" />
-    <Compile Include="Code Examples\Ex07_RecordToFile.md" />
-    <Compile Include="Code Examples\Ex08_ReplayFromFile.md" />
-    <Compile Include="Code Examples\Ex09_RecordToStream.md" />
+    <Compile Include="Code Examples\Getting Started\Ex02_StopRecording.md" />
+    <Compile Include="Code Examples\Getting Started\Ex03_Replaying.md" />
+    <Compile Include="Code Examples\Getting Started\Ex04_StopReplaying.md" />
+    <Compile Include="Code Examples\Getting Started\Ex05_PauseResumeReplay.md" />
+    <Compile Include="Code Examples\Getting Started\Ex07_ReplaySpeedDirection.md" />
+    <Compile Include="Code Examples\Getting Started\Ex06_SeekReplay.md" />
+    <Compile Include="Code Examples\Getting Started\Ex08_RecordToFile.md" />
+    <Compile Include="Code Examples\Getting Started\Ex09_ReplayFromFile.md" />
+    <Compile Include="Code Examples\Getting Started\Ex10_RecordToStream.md" />
   </ItemGroup>
 
 </Project>
