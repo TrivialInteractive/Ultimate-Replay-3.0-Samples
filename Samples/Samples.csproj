@@ -8,12 +8,14 @@
     <None Remove="Code Examples\Ex02_StopRecording.md" />
     <None Remove="Code Examples\Ex03_Replaying.md" />
     <None Remove="Code Examples\Ex04_StopReplaying.md" />
+    <None Remove="Code Examples\Ex05_PauseResumeReplay.md" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Include="Code Examples\Ex02_StopRecording.md" />
     <Compile Include="Code Examples\Ex03_Replaying.md" />
     <Compile Include="Code Examples\Ex04_StopReplaying.md" />
+    <Compile Include="Code Examples\Ex05_PauseResumeReplay.md" />
   </ItemGroup>
 
 </Project>
