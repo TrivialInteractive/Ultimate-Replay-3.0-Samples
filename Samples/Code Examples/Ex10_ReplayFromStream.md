@@ -2,6 +2,7 @@
 This quick example shows how to begin a new replay as shown previoulsy, but using a stream as the target storage location.
 
 ```cs
+using System.IO;
 using UnityEngine;
 using UltimateReplay;
 using UltimateReplay.Storage;
