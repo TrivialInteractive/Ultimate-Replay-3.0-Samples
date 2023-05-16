@@ -1,5 +1,5 @@
 ﻿
-This quick example shows how you can seek though the timeline of a replay much like a video player to reach a certain time or offset.
+This quick example shows how you can seek though the timeline of a replay much like a video player to reach a certain time or offset.  
 Seeking can be very useful in order to jump to certain parts of the replay, or to simply support a sliding time bar as you would see in video players so that the user can scroll manually.
 
 There are 2 main ways to seek using the replay API:
