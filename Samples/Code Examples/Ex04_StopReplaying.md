@@ -1,5 +1,5 @@
 ﻿
-This quick example shows how to stop a running replay using the ReplayManager API
+This quick example shows how to stop a running replay using the ReplayManager API  
 Note: By default the replay system will automatically stop the replay once it reaches the end. This behaviour can be changed in the replay settings `Tools -> Ultimate Replay 3.0 -> Settings`
 
 ```cs
