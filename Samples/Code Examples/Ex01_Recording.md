@@ -13,7 +13,7 @@ public class Example : MonoBehaviour
 	void Start()
 	{
 		// Create a storage target where the replay data will be saved
-		ReplayMemoryTarget storage = new ReplayMemoryStorage("MyReplay");
+		ReplayMemoryStorage storage = new ReplayMemoryStorage("MyReplay");
 
 		// Start a new recording as soon as the game loads
 		recordOp = ReplayManager.BeginRecording(storage);
