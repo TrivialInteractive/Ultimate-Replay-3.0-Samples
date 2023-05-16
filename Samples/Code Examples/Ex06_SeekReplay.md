@@ -3,8 +3,8 @@ This quick example shows how you can seek though the timeline of a replay much l
 Seeking can be very useful in order to jump to certain parts of the replay, or to simply support a sliding time bar as you would see in video players so that the user can scroll manually.
 
 There are 2 main ways to seek using the replay API:
-1. - Absolute seeking where you specify the time stamp in seconds that you would like to jump to
-2. - Normalized seeking where you specify a value between 0-1 representing the progress of the replay, where 0 = start and 1 = end
+1. Absolute seeking where you specify the time stamp in seconds that you would like to jump to
+2. Normalized seeking where you specify a value between 0-1 representing the progress of the replay, where 0 = start and 1 = end
 
 ```cs
 using UnityEngine;
