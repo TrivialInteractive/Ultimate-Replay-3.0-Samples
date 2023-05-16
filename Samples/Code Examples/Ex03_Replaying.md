@@ -13,7 +13,7 @@ public class Example : MonoBehaviour
 
     // The storage created in the previous examples. 
     // We will assume this contains a valid replay for this example.
-    ReplayMemoryStorage storage = null;
+    private ReplayMemoryStorage storage = null;
 
     void Replay()
     {

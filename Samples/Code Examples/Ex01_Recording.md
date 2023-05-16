@@ -8,11 +8,11 @@ using UltimateReplay.Storage;
 
 public class Example : MonoBehaviour
 {
-	// Store the playback operation for later use
+	// Store the record operation for later use
 	private ReplayRecordOperation recordOp = null;
 
 	// Store the storage target for later use
-	ReplayMemoryStorage storage = null;
+	private ReplayMemoryStorage storage = null;
 
 	void Start()
 	{
