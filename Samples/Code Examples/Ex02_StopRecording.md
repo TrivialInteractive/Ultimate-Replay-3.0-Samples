@@ -21,6 +21,8 @@ public class Example : MonoBehaviour
 
         // Stop recording
         recordOp.StopRecording();
+
+        // IMPORTANT - recordOp will be disposed after the `StopRecording` call.
     }
 }
 ```

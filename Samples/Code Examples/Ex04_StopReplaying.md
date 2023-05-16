@@ -15,7 +15,10 @@ public class Example : MonoBehaviour
 
     void StopReplay()
     {
+        // Stop the replay
         playbackOp.StopPlayback();
+
+        // IMPORTANT - playbackOp will be disposed after the `StopRecording` call.
     }
 }
 ```
