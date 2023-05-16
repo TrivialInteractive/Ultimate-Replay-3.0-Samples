@@ -6,10 +6,12 @@
 
   <ItemGroup>
     <None Remove="Code Examples\Ex02_StopRecording.md" />
+    <None Remove="Code Examples\Ex03_Replaying.md" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Include="Code Examples\Ex02_StopRecording.md" />
+    <Compile Include="Code Examples\Ex03_Replaying.md" />
   </ItemGroup>
 
 </Project>
