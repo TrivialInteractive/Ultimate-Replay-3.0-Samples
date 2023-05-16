@@ -9,8 +9,7 @@ using UltimateReplay.Storage;
 
 public class Example : MonoBehaviour
 {
-	// Our running playback operation created in the previous example
-	// We assume this is assigned for this sample
+	// Store the playback operation for later use
 	private ReplayPlaybackOperation playbackOp = null;
 
 	// The stream where the replay data will be stored
