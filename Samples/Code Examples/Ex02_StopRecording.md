@@ -12,7 +12,7 @@ public class Example : MonoBehaviour
 {
     // Our running record operation created in the previous example
     // We assume this is assigned for this sample
-	private ReplayRecordOperation recordOp = null;
+    private ReplayRecordOperation recordOp = null;
 
     IEnumerator Start()
     {
