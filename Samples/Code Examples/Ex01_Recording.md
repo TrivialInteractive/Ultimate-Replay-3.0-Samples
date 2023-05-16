@@ -2,6 +2,7 @@
 This quick example shows how to begin a new recording using the ReplayManager API
 
 ```cs
+using UnityEngine;
 using UltimateReplay;
 using UltimateReplay.Storage;
 

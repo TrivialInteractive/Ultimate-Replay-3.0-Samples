@@ -4,4 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Code Examples\Ex02_StopRecording.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Code Examples\Ex02_StopRecording.md" />
+  </ItemGroup>
+
 </Project>
