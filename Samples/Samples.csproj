@@ -11,6 +11,7 @@
     <None Remove="Code Examples\Ex05_PauseResumeReplay.md" />
     <None Remove="Code Examples\Ex06_SeekReplay.md" />
     <None Remove="Code Examples\Ex07_RecordToFile.md" />
+    <None Remove="Code Examples\Ex08_ReplayFromFile.md" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +21,7 @@
     <Compile Include="Code Examples\Ex05_PauseResumeReplay.md" />
     <Compile Include="Code Examples\Ex06_SeekReplay.md" />
     <Compile Include="Code Examples\Ex07_RecordToFile.md" />
+    <Compile Include="Code Examples\Ex08_ReplayFromFile.md" />
   </ItemGroup>
 
 </Project>
