@@ -11,7 +11,7 @@ public class Example : MonoBehaviour
 	// We assume this is assigned for this sample
 	private ReplayPlaybackOperation playbackOp = null;
 
-	// Our running playback operation created in the previous example
+	// Our file storage created in the previous example
 	// We assume this is assigned for this sample with a valid ReplayFileStorage instance
 	private ReplayStorage storage = null;
 
