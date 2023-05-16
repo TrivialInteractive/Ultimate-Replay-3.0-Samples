@@ -31,6 +31,7 @@ public class Example : MonoBehaviour
 		// Note: The `FromFile` method works for creating new files as well as reading existing files
 		storage = ReplayFileStorage.FromFile(replayFile);
 
+		// Start a new replay
 		playbackOp = ReplayManager.BeginPlayback(storage);
 	}
 }
