@@ -1,5 +1,5 @@
 ﻿
-This quick example shows how to stop a running recording using the ReplayManager API
+This quick example shows how to stop a running recording using the ReplayManager API  
 Note: Recordings must be stopped before they can be replayed
 
 ```cs
