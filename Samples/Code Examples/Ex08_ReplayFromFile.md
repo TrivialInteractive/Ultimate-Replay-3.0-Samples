@@ -1,4 +1,5 @@
-﻿This quick example shows how to begin a new recording as shown previoulsy, but using a file as the target storage location.
+﻿
+This quick example shows how to begin a new replay as shown previoulsy, but using a file as the target storage location.
 
 ```cs
 using UnityEngine;
