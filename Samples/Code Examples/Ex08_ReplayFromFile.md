@@ -15,7 +15,7 @@ public class Example : MonoBehaviour
 	// We assume this is assigned for this sample with a valid ReplayFileStorage instance
 	private ReplayStorage storage = null;
 
-	// The name of the file that the replay will be loaded
+	// The name of the file that the replay will be loaded from
 	public string replayFile = "MyReplay.replay";
 
 	void Replay()
