@@ -38,14 +38,16 @@ public class Example : ReplayBehaviour
 		}
 	}
 
+	// Called during playback when the replay system comes across a replay event for the current time stamp
 	protected override void OnReplayEvent(ushort eventID, ReplayState eventData)
 	{
-		// Check for known event type
+		// Check for space event type
 		if(eventID == spaceEventID)
 		{
 			Debug.Log("Space event triggered = " + eventID);
 			Debug.Log("Event data = " + eventData.ReadString());
 		}
+		// Check for return event type
 		else if(eventID = returnEventID)
 		{
 			Debug.Log("Return event triggered = " + eventID);
