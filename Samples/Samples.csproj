@@ -3,6 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Code Examples\Useful Samples\Ex04_ReadCustomMetadataOnly.md" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="Code Examples\Getting Started\Ex02_StopRecording.md" />
     <Compile Include="Code Examples\Getting Started\Ex03_Replaying.md" />
@@ -13,6 +17,7 @@
     <Compile Include="Code Examples\Getting Started\Ex08_RecordToFile.md" />
     <Compile Include="Code Examples\Getting Started\Ex09_ReplayFromFile.md" />
     <Compile Include="Code Examples\Getting Started\Ex10_RecordToStream.md" />
+    <Compile Include="Code Examples\Useful Samples\Ex04_ReadCustomMetadataOnly.md" />
   </ItemGroup>
 
 </Project>
