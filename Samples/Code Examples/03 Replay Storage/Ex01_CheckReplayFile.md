@@ -2,6 +2,9 @@
 This quick example shows how to check if a specific file is a valid replay file format. This can be useful for scanning all replay files in a given directory where there may also be other non-replay related files.
 
 ```cs
+using UnityEngine;
+using UltimateReplay;
+using UltimateReplay.Storage;
 
 public class Example : MonoBehaviour
 {
