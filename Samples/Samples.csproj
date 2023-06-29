@@ -21,6 +21,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Code Examples\02 Custom Replay Data\" />
+    <Folder Include="Code Examples\03 Replay Storage\" />
   </ItemGroup>
 
 </Project>
