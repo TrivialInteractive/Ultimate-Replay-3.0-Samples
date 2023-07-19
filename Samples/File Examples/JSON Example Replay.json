@@ -1,0 +1,737 @@
+{
+  "Replay Header": {
+    "File Identifier": 808669781,
+    "Version": 100,
+    "Identity Byte Size": 2,
+    "Memory Size": "0x000001D1",
+    "Duration": "0x4000842E",
+    "Snapshot Count": "0x0000000F",
+    "Segment Table Offset": "0x000055BD",
+    "Persistent Data Offset": "0x00005711",
+    "Metadata Offset": "0x0000587C"
+  },
+  "Replay Data": [
+    {
+      "Segment ID": 1,
+      "Snapshot Capacity": 30,
+      "IsCompressed": false,
+      "Snapshots": [
+        {
+          "Key": 1,
+          "Value": {
+            "Time Stamp": 0.0,
+            "Sequence ID": 1,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 5.0,
+                          "Z": 0.0
+                        },
+                        "Rotation": {
+                          "X": 0.3659668,
+                          "Y": 0.453125,
+                          "Z": -0.211303711,
+                          "W": 0.784667969
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": 2,
+          "Value": {
+            "Time Stamp": 0.373333335,
+            "Sequence ID": 2,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 4.328996,
+                          "Z": 0.0
+                        },
+                        "Rotation": {
+                          "X": 0.3659668,
+                          "Y": 0.453125,
+                          "Z": -0.211303711,
+                          "W": 0.784667969
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": 3,
+          "Value": {
+            "Time Stamp": 0.4985109,
+            "Sequence ID": 3,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 3.8228004,
+                          "Z": 0.0
+                        },
+                        "Rotation": {
+                          "X": 0.3659668,
+                          "Y": 0.453125,
+                          "Z": -0.211303711,
+                          "W": 0.784667969
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": 4,
+          "Value": {
+            "Time Stamp": 0.6247303,
+            "Sequence ID": 4,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 3.05369663,
+                          "Z": 0.0
+                        },
+                        "Rotation": {
+                          "X": 0.3659668,
+                          "Y": 0.453125,
+                          "Z": -0.211303711,
+                          "W": 0.784667969
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": 5,
+          "Value": {
+            "Time Stamp": 0.750903547,
+            "Sequence ID": 5,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 2.24142885,
+                          "Z": 0.0
+                        },
+                        "Rotation": {
+                          "X": 0.3659668,
+                          "Y": 0.453125,
+                          "Z": -0.211303711,
+                          "W": 0.784667969
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": 6,
+          "Value": {
+            "Time Stamp": 0.8762663,
+            "Sequence ID": 6,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 1.28789735,
+                          "Z": 0.0
+                        },
+                        "Rotation": {
+                          "X": 0.3659668,
+                          "Y": 0.453125,
+                          "Z": -0.211303711,
+                          "W": 0.784667969
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": 7,
+          "Value": {
+            "Time Stamp": 1.00170934,
+            "Sequence ID": 7,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.04716046,
+                          "Y": 0.6971962,
+                          "Z": 0.0226399153
+                        },
+                        "Rotation": {
+                          "X": 0.396728516,
+                          "Y": 0.443359375,
+                          "Z": -0.232055664,
+                          "W": 0.76953125
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": 8,
+          "Value": {
+            "Time Stamp": 1.12800384,
+            "Sequence ID": 8,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.1306268,
+                          "Y": 0.6732945,
+                          "Z": 0.0753486753
+                        },
+                        "Rotation": {
+                          "X": 0.4519043,
+                          "Y": 0.4272461,
+                          "Z": -0.260986328,
+                          "W": 0.73828125
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": 9,
+          "Value": {
+            "Time Stamp": 1.25358415,
+            "Sequence ID": 9,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.237856984,
+                          "Y": 0.6202358,
+                          "Z": 0.136869535
+                        },
+                        "Rotation": {
+                          "X": 0.51953125,
+                          "Y": 0.400146484,
+                          "Z": -0.300292969,
+                          "W": 0.6923828
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": 10,
+          "Value": {
+            "Time Stamp": 1.37910163,
+            "Sequence ID": 10,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.3681946,
+                          "Y": 0.511768758,
+                          "Z": 0.211780488
+                        },
+                        "Rotation": {
+                          "X": 0.60546875,
+                          "Y": 0.357910156,
+                          "Z": -0.350097656,
+                          "W": 0.618652344
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": 11,
+          "Value": {
+            "Time Stamp": 1.504299,
+            "Sequence ID": 11,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.409755,
+                          "Y": 0.534913659,
+                          "Z": 0.236541241
+                        },
+                        "Rotation": {
+                          "X": 0.634277344,
+                          "Y": 0.341064453,
+                          "Z": -0.366455078,
+                          "W": 0.589355469
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": 12,
+          "Value": {
+            "Time Stamp": 1.63077629,
+            "Sequence ID": 12,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.391434133,
+                          "Y": 0.5156106,
+                          "Z": 0.225410938
+                        },
+                        "Rotation": {
+                          "X": 0.6220703,
+                          "Y": 0.348144531,
+                          "Z": -0.359619141,
+                          "W": 0.6020508
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": 13,
+          "Value": {
+            "Time Stamp": 1.75608361,
+            "Sequence ID": 13,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.3773121,
+                          "Y": 0.500016749,
+                          "Z": 0.2170113
+                        },
+                        "Rotation": {
+                          "X": 0.6123047,
+                          "Y": 0.353759766,
+                          "Z": -0.353759766,
+                          "W": 0.6123047
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": 14,
+          "Value": {
+            "Time Stamp": 1.88279307,
+            "Sequence ID": 14,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.37724027,
+                          "Y": 0.50000006,
+                          "Z": 0.217000827
+                        },
+                        "Rotation": {
+                          "X": 0.6123047,
+                          "Y": 0.353759766,
+                          "Z": -0.353759766,
+                          "W": 0.6123047
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": 15,
+          "Value": {
+            "Time Stamp": 2.00806761,
+            "Sequence ID": 15,
+            "Size": 31,
+            "Replay Objects": [
+              {
+                "Key": 24782,
+                "Value": {
+                  "Serialize Flags": 4,
+                  "Prefab Identity": 0,
+                  "Components": [
+                    {
+                      "Identity": 57111,
+                      "Formatter ID": 7,
+                      "Component Data": {
+                        "Serialize Flags": 743,
+                        "Position": {
+                          "X": 0.37724036,
+                          "Y": 0.50000006,
+                          "Z": 0.217000857
+                        },
+                        "Rotation": {
+                          "X": 0.6123047,
+                          "Y": 0.353759766,
+                          "Z": -0.353759766,
+                          "W": 0.6123047
+                        },
+                        "Scale": {
+                          "X": 1.0,
+                          "Y": 1.0,
+                          "Z": 1.0
+                        }
+                      }
+                    }
+                  ],
+                  "Variables": [],
+                  "Events": [],
+                  "Methods": []
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "Segment Table": {
+    "Segment Entries": [
+      {
+        "Key": 1,
+        "Value": {
+          "Segment ID": 1,
+          "Start Sequence ID": 1,
+          "End Sequence ID": 15,
+          "Start Time Stamp": 0.0,
+          "End Time Stamp": 2.00806761,
+          "Stream Offset": 362
+        }
+      }
+    ]
+  },
+  "Persistent Data": {
+    "Data Time Stamped": [
+      {
+        "Key": 24782,
+        "Value": [
+          {
+            "Time Stamp": 0.0,
+            "State": {
+              "Raw Data": "60CE0000000000030000000040A00000000000003EBB641B3EE803CBBE58616A3F48EE440001DF17"
+            }
+          }
+        ]
+      }
+    ],
+    "Data": null
+  },
+  "Metadata": {
+    "replayName": "JSON Example Replay",
+    "sceneId": 1,
+    "sceneName": "QuickStart",
+    "scenePath": "Assets/Ultimate Replay 3.0/Demo/QuickStart.unity",
+    "appName": "UltimateReplay",
+    "developerName": "DefaultCompany",
+    "userName": "unknown"
+  }
+}
