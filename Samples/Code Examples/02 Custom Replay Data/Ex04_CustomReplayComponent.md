@@ -25,7 +25,7 @@ public class Example : ReplayRecordableBehaviour
 	// The public data that we will record and replay for this example. 
 	// The data could also come from an external component or really from any source.
 	public int myIntData = 0;	
-	public string myStringData = "";
+	public string myStringData = "Hello World";
 	public float myFloatData = 0f;
 
 	// This method is called when the component should serialize any custom data, usually called around 1-48 times per second depending upon record rate
