@@ -1,6 +1,8 @@
 
-This quick example shows how you can quickly record custom data as part of a replay using replay events.
+This quick example shows how you can easily record custom data as part of a replay using replay events.
 Replay events can be used to record an action at a specific time stamp with optional associated data, and can be useful for one shot data that does not need to be continually recorded.
+
+NOTE: Replay events will not be called when seeking to different timestamps in the recording.
 
 ```cs
 using UnityEngine;
@@ -14,6 +16,7 @@ public class Example : ReplayBehaviour
 	ushort spaceEventID = 25;
 	ushort returnEventID = 44;
 
+	// Replay events can be recorded at any time but in most cases you will mainly use `Update` or `OnReplayCapture` methods
 	void Update()
 	{
 		// Record an event when user performs a space press
