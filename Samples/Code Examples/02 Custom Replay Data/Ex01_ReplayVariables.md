@@ -1,5 +1,5 @@
 
-This quick example shows how you can quickly record custom data as part of a replay using replay variables.
+This quick example shows how you can easily record custom data as part of a replay using replay variables.
 Replay variables are just special fields that the replay system will serialize and deserialize automatically, and can also support interpolation for supported types such as float for value smoothing.
 
 ```cs
