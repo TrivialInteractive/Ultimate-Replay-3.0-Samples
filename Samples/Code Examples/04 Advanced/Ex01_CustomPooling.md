@@ -83,7 +83,7 @@ Once you have implemented the lifecycle provider script, you can then proceed to
 
 ![image](https://github.com/TrivialInteractive/Ultimate-Replay-3.0-Samples/blob/412eb63535a5050786156061101c9a54c632f72b/Images/CodeExamples/ReplayLifecycleProviderCreateAsset.png)
 
-2. With the asset still selected, we can now assign our `ReplayObject` prefab that will be managed.
+2. With the asset still selected, we can now assign our `ReplayObject` prefab that will be managed in the insepctor window.
 
 ![image](https://github.com/TrivialInteractive/Ultimate-Replay-3.0-Samples/blob/412eb63535a5050786156061101c9a54c632f72b/Images/CodeExamples/ReplayLifecycleProviderAssignReplayObject.png)
 
@@ -96,4 +96,4 @@ Once you have implemented the lifecycle provider script, you can then proceed to
 ![image](https://github.com/TrivialInteractive/Ultimate-Replay-3.0-Samples/blob/412eb63535a5050786156061101c9a54c632f72b/Images/CodeExamples/ReplayLifecycleProviderAssignProviderSettings.png)
 
 
-Now when you run the game using the replay prefabs feature, you will see that our custom pooling implementation is no used for the assigned replay object. You can repeat steps 1-4 for any other replay prefabs that you would also like to pool.
+Now when you run the game using the replay prefabs feature, you will see that our custom pooling implementation is now used for the assigned replay object. You can repeat steps 1-4 for any other replay prefabs that you would also like to pool using the same lifecycle provider implementation.
