@@ -36,7 +36,7 @@ public class AssetBundleLifecycleProvider : ReplayObjectLifecycleProvider
 			bundle = AssetBundle.LoadFromFile(assetBundlePath);
 
 		// Load asset
-		if(asset == null)
+		if(asset == null && bundle != null)
 			asset = bundle.LoadAsset<ReplayObject>(prefabAssetPath);
 
 		// Create instance
