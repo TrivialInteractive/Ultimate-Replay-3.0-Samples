@@ -18,7 +18,7 @@ public class AssetBundleLifecycleProvider : ReplayObjectLifecycleProvider
 	private ReplayObject asset - null;
 
 	// Asset bundle paths where the bundle and asset should be loaded from - Should be assigned in inspector
-	public string assetBundlePath = "AssetBundles/ReplayPrefabs;
+	public string assetBundlePath = "AssetBundles/ReplayPrefabs";
 	public string prefabAssetPath = "Prefabs/ReplayCube";
 
 	// Should match target ReplayObject.PrefabIdentity value
