@@ -2,7 +2,7 @@
 This example shows how you can use the replay storage API to read recorded properties such as position and rotation from a replay storage target.
 This means you can extract any replay data from existing replay files and access it via code even if using a binary format.
 
-The API aims to be as simple as possible, but it does require some understanding of how replays are structured in order to use correctly. The first thing to do is load our replay storage and get read to read data from it. The storage could be in any form but for this example we will assume a relay file using the default binary format:
+The API aims to be as simple as possible, but it does require some understanding of how replays are structured in order to use correctly. The first thing to do is load our replay storage and read data from it. The storage could be in any form but for this example we will assume a relay file using the default binary format:
 
 ```cs
 using UltimateReplay;
@@ -24,7 +24,7 @@ public class Example : MonoBehaviour
 }
 ```
 
-Next we need to decide which data we would like to access. For example if you are only interested in data fro the 5 second mark of the recording you can use the following to fetch the nearest snapshot:
+Next we need to decide which data we would like to access. For example if you are only interested in data from the 5 second mark of the recording you can use the following to fetch the nearest snapshot:
 
 ```cs
 // Try to get the snapshot for the 5 second mark
@@ -47,7 +47,7 @@ Once we have any given snapshot, we can then begin to extract data from it start
 // Loop over all replay id's that are listed in this snapshot
 foreach(ReplayIdentity id in snapshot.Identities)
 {
-	// Get the state data for the replay object with the give id
+	// Get the state data for the replay object with the given id
 	// The resulting state will contain all information for all replay components associated with the target replay object
 	ReplayState objectStateData = snapshot.RestoreSnapshot(id);
 }
@@ -76,7 +76,7 @@ As indicated by the names, `EventStates`, `MethodStates` and `VariableStates` co
 Assuming we wanted to extract the transform information for the replay object we could use the following approach:
 
 ```cs
-// Loop over all compoent states since the transform information could be stored at any slot
+// Loop over all component states since the transform information could be stored at any slot
 // Note also that there may be multiple transforms stored if child objects are also recorded
 foreach(ReplayComponentData componentData in objectFormatter.ComponentStates)
 {
@@ -95,7 +95,7 @@ foreach(ReplayComponentData componentData in objectFormatter.ComponentStates)
 }
 ```
 
-Finally once we have deserialized out transform formatter, we will now be able to access the position and rotation values that were recorded:
+Finally once we have deserialized our transform formatter, we will now be able to access the position and rotation values that were recorded:
 
 ```cs
 // Get replay position
@@ -116,7 +116,7 @@ Debug.Log("Position Recorded Axis: " + transformFormatter.PositionAxis);
 Debug.Log("Position Recorded Space: " + transformFormatter.PositionSpace);
 Debug.Log("Position Recorded Precision: " + transformFormatter.PositionPrecision);
 
-// Simmilar properties are available to rotation and scale also
+// Simmilar properties are available for rotation and scale also
 ```
 
 So that demonstrates how you can extract transform data for a particular replay object from any storage target. Although only a transform example was shown, similar principles apply for other components and you will find that other formatters such as `ReplayAudioFormatter` and `ReplayAnimationFormatter` also exist and provide the same sort of api.
@@ -149,7 +149,7 @@ public class Example : MonoBehaviour
 			// Loop over all replay id's that are listed in this snapshot
 			foreach(ReplayIdentity id in snapshot.Identities)
 			{
-				// Get the state data for the replay object with the give id
+				// Get the state data for the replay object with the given id
 				// The resulting state will contain all information for all replay components associated with the target replay object
 				ReplayState objectStateData = snapshot.RestoreSnapshot(id);
 
@@ -168,7 +168,7 @@ public class Example : MonoBehaviour
 				Debug.Log("Method Count: " + objectFormatter.MethodStates.Count);
 				Debug.Log("Variable Count: " + objectFormatter.VariableStates.Count);
 
-				// Loop over all compoent states since the transform information could be stored at any slot
+				// Loop over all component states since the transform information could be stored at any slot
 				// Note also that there may be multiple transforms stored if child objects are also recorded
 				foreach(ReplayComponentData componentData in objectFormatter.ComponentStates)
 				{
