@@ -54,17 +54,5 @@
     "postProcessors": [],
     "keepFileLink": false,
     "disableGitFeatures": false
-  },
-  "pdf": {
-		"content": [
-			{
-				"files": [ "**/*.{md,yml}" ]
-			}
-		],
-		"wkhtmltopdf": {
-			"filePath": "C:/Program Files/wkhtmltopdf/bin/wkhtmltopdf.exe",
-			"additionalArguments": "--enable-local-file-access"
-		},
-		"output": "_site_pdf"
-	}
+  }
 }
