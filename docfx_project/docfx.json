@@ -1,0 +1,70 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+			"UltimateReplay.csproj"
+          ],
+		  "src": "../../Ultimate Replay 3.0/Unity - Ultimate Replay 3.0"
+        }
+      ],
+      "dest": "api",
+      "includePrivateMembers": false,
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "noRestore": false,
+      "namespaceLayout": "flattened",
+      "memberLayout": "samePage",
+      "EnumSortOrder": "alphabetic",
+      "allowCompilationErrors": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",
+      "modern"
+    ],
+    "postProcessors": [],
+    "keepFileLink": false,
+    "disableGitFeatures": false
+  },
+  "pdf": {
+		"content": [
+			{
+				"files": [ "**/*.{md,yml}" ]
+			}
+		],
+		"wkhtmltopdf": {
+			"filePath": "C:/Program Files/wkhtmltopdf/bin/wkhtmltopdf.exe",
+			"additionalArguments": "--enable-local-file-access"
+		},
+		"output": "_site_pdf"
+	}
+}
