@@ -10,7 +10,7 @@ The latest beta version is available with full source code only for existing Ult
 Existing user upgrading from Ultimate Replay 2.0? Check out the [migration guide](https://github.com/TrivialInteractive/Ultimate-Replay-3.0-Samples/wiki/Migration-Guide-(2.0---3.0)) to see the main differences between versions and what changes you will need to make to upgrade and existing project.
 
 ### Where to begin?
-Check out the [Getting Started](https://github.com/TrivialInteractive/Ultimate-Replay-3.0-Samples/wiki/Getting-Started) section for code examples.
+Check out the [Wiki]([https://github.com/TrivialInteractive/Ultimate-Replay-3.0-Samples/wiki/Getting-Started](https://github.com/TrivialInteractive/Ultimate-Replay-3.0-Samples/wiki)) for code examples.
 
 ### Feedback / Bugs / Support
 For feedback or issues relating to Ultimate Replay 3.0 it is best to get in touch via one of the support channels or open an issue.
