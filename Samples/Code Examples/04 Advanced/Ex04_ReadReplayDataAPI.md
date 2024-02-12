@@ -34,7 +34,7 @@ ReplaySnapshot snapshot = storage.FetchSnapshot(5.0f);
 Alternatively we can access all data in order from the replay using the value known as the `Sequence ID`. It is a value that starts from 1, counts upwards and identifies each recorded snapshot in order. With that in mind we can load all recorded snapshots in order using the following approach:
 
 ```cs
-for(int i = 1; i < storage.SnapshotSize; i++)
+for(int i = 1; i <= storage.SnapshotSize; i++)
 {
 	// Get the snapshot for sequence id 'i'
 	ReplaySnapshot snapshot = storage.FetchSnapshot(i);
