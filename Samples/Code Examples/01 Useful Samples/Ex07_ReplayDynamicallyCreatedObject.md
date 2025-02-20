@@ -34,23 +34,26 @@ public class Example : MonoBehaviour
 {
         void Start()
         {
-                // Created in above example
-                ReplayObject replayObject = ...
+                // Create or instantiate some new object
+                GameObject newObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
 
-                // The first thing to do is make this object a prefab in the eyes of the replay system
-                // It essentially causes a valid prefab identity to be created for this object
-                replayObject.MakePrefab();
+                // Use the helper API to add and setup the replay components - we can add as many as we like
+                // Note that we are using the `Prefab` method here instead which performs extra setup such as registering with the replay manager
+                // This should only be called once
+                ReplayObject replayObject = ReplayObject.MakeReplayPrefab(newObject, typeof(ReplayTransform), typeof(ReplayAnimator));
 
-                // Next we need to register this object as a replay prefab
-                // This will allow the replay system to destroy and instatnaite versions of this object on demand as required by the current playback state
-                ReplayManager.AddReplayPrefabAssetProvider(replayObject);
+                // NewObject must be treated as a prefab in this case since it was registered as a prefab with the replay manager
+                // It just means that we cannot record it directly and instead should create a clone instance
+                // If multiple instances need to be created then you should store `newObject` like a prefab so that it can be cloned for each new object you need to add.
+                GameObject newObjectClone = Instantiate(newObject);
 
                 // Finally since a record operation is already underway, we will need to manually inform the replay system that we want to add a new object to be recorded.
                 // This can be done via a `ReplayScene` reference, but there are also a number of helper methods that can be used to make this easy
-                ReplayManager.AddReplayObjectToRecordScenes(replayObject);
+                // This can be called any number of times 
+                ReplayManager.AddReplayObjectToRecordScenes(newObjectClone);
         }
 }
 ```
 
-After that the new object will now be recorded and replayed as a prefab. That means during payback the object will be destroyed until it reacehes the time stamp where it was created,
+After that the new object clone will now be recorded and replayed as a prefab. That means during payback the object will be destroyed until it reacehes the time stamp where it was created,
 and at that point the replay system will instantiate a new clone of the object to perform playback.
