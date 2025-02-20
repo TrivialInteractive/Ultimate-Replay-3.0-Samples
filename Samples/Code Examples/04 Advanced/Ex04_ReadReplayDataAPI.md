@@ -193,9 +193,21 @@ public class Example : MonoBehaviour
 						// Log info
 						Debug.LogFormat("Replay Object: {0} - Pos = {1}, Rot = {2}", componentData.BehaviourIdentity, position, rotation);
 					}
+
+					// Dispose of the component data once we are finished with it
+					componentData.Dispose();
 				}
+
+				// Dispose of the object data once we are finished with it
+				objectStateData.Dispose();
 			}
+
+			// Dispose of the snapshot once we are finished with it
+			snapshot.Dispose();
 		}
+
+		// Finally dispose of the storage once we are finished with it
+		storage.Dispose();
 	}
 }
 ```
