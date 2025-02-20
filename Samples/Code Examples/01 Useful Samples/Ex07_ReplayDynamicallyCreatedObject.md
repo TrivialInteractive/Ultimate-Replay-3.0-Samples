@@ -37,6 +37,10 @@ public class Example : MonoBehaviour
                 // Created in above example
                 ReplayObject replayObject = ...
 
+                // The first thing to do is make this object a prefab in the eyes of the replay system
+                // It essentially causes a valid prefab identity to be created for this object
+                replayObject.MakePrefab();
+
                 // Next we need to register this object as a replay prefab
                 // This will allow the replay system to destroy and instatnaite versions of this object on demand as required by the current playback state
                 ReplayManager.AddReplayPrefabAssetProvider(replayObject);
